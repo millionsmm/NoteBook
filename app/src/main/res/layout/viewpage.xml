@@ -22,7 +22,8 @@
                 android:layout_width="fill_parent"
                 android:orientation="horizontal">
             </LinearLayout>
-        </LinearLayout></RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
     <LinearLayout
         android:background="#f8f8ff"
         android:layout_height="fill_parent"

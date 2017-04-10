@@ -16,11 +16,10 @@
             android:gravity="center"
             android:padding="10dp"
             android:textSize="20sp"/>
-        <ImageView
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:src="@mipmap/spilt_line"
-            android:scaleType="fitXY"
+            android:background="#000"
             />
         <TextView
             android:id="@+id/recommend_content"
@@ -31,11 +30,10 @@
             android:textSize="18sp"/>
 
     </LinearLayout>
-    <ImageView
+    <View
         android:layout_width="1dp"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
-        android:scaleType="fitXY"
-        android:src="@mipmap/spilt_line"/>
+        android:background="#000"/>
 
 </RelativeLayout>

@@ -23,8 +23,8 @@ public class RecommendContentFragment extends Fragment {
         visibilityLayout.setVisibility(View.VISIBLE);
         TextView recommendTitleText=(TextView)view.findViewById(R.id.recommend_title);
         TextView reconmmendContentText=(TextView)view.findViewById(R.id.recommend_content);
-        recommendTitleText.setText(recommendTitle);
-        reconmmendContentText.setText(recommendContent);
+        recommendTitleText.setText(recommendTitle);//刷新标题
+        reconmmendContentText.setText(recommendContent);//刷新内容
 
     }
 }
